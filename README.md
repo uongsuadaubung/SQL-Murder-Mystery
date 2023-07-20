@@ -15,7 +15,7 @@ This exercise is meant more as a way to practice SQL skills than a full tutorial
 
 If you're comfortable with SQL, you can dive in below!
 
-Vi: 
+Vi:
 
 ### Experienced SQL sleuths start here
 
@@ -23,7 +23,7 @@ En:
 A crime has taken place and the detective needs your help. The detective gave you the crime scene report, but you somehow lost it. You vaguely remember that the crime was a **murder** that occurred sometime on **Jan.15, 2018** and that it took place in **SQL City**. Start by retrieving the corresponding crime scene report from the police department’s database.
 
 Vi:  
-Một vụ án đã xảy ra và thám tử cần sự giúp đỡ của bạn. Thám tử đã cung cấp cho bạn bản báo cáo hiện trường tội phạm, nhưng bạn đã mất nó mất rồi. Bạn hồi tưởng lại rằng vụ án là một vụ **giết người** xảy ra vào ngày **15 tháng 1 năm 2018** và đã diễn ra ở **Thành phố SQL**. Hãy bắt đầu bằng cách lấy lại báo cáo hiện trường tương ứng từ cơ sở dữ liệu của cảnh sát.  
+Một vụ án đã xảy ra và thám tử cần sự giúp đỡ của bạn. Thám tử đã cung cấp cho bạn bản báo cáo hiện trường tội phạm, nhưng bạn đã mất nó mất rồi. Bạn hồi tưởng lại rằng vụ án là một vụ **giết người** xảy ra vào ngày **15 tháng 1 năm 2018** và đã diễn ra ở **Thành phố SQL**. Hãy bắt đầu bằng cách lấy lại báo cáo hiện trường tương ứng từ cơ sở dữ liệu của cảnh sát.
 
 ### Exploring the Database Structure
 Experienced SQL users can often use database queries to infer the structure of a database. But each database system has different ways of managing this information. The SQL Murder Mystery is built using SQLite. Use this SQL command to find the tables in the Murder Mystery database.
@@ -51,4 +51,16 @@ result
 | income                 | Thông tin thu nhập                   |
 | person                 | Thông tin cá nhân                    |
 
-Link [diagram](https://dbdiagram.io/d/64b8f13302bd1c4a5e6516ec)
+
+Besides knowing the table names, you need to know how each table is structured. The way this works is also dependent upon which database technology you use. Here's how you do it with SQLite.
+
+#### Run this query to find the structure of the `crime_scene_report` table
+Change the value of 'name' to see the structure of the other tables you learned about with the previous query.
+
+```sql
+SELECT sql 
+  FROM sqlite_master
+ where name = 'crime_scene_report'
+```
+
+Full [diagram](https://dbdiagram.io/d/64b8f13302bd1c4a5e6516ec)
