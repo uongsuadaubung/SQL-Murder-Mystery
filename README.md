@@ -39,17 +39,17 @@ SELECT name
 ```
 result
 
-| Tên bảng               | Mô tả                                |
-|------------------------|--------------------------------------|
-| crime_scene_report     | Báo cáo hiện trường tội phạm         |
-| drivers_license        | Thông tin giấy phép lái xe           |
-| facebook_event_checkin | Thông tin check-in sự kiện Facebook  |
-| interview              | Thông tin cuộc phỏng vấn             |
-| get_fit_now_member     | Thông tin thành viên Get Fit Now     |
-| get_fit_now_check_in   | Thông tin check-in Get Fit Now       |
-| solution               | Thông tin giải pháp                  |
-| income                 | Thông tin thu nhập                   |
-| person                 | Thông tin cá nhân                    |
+| Tên bảng               | Mô tả                                 |
+|------------------------|---------------------------------------|
+| crime_scene_report     | Báo cáo hiện trường tội phạm          |
+| drivers_license        | Thông tin giấy phép lái xe            |
+| facebook_event_checkin | Thông tin check-in sự kiện Facebook   |
+| interview              | Thông tin cuộc phỏng vấn lấy lời khai |
+| get_fit_now_member     | Thông tin thành viên Get Fit Now      |
+| get_fit_now_check_in   | Thông tin check-in Get Fit Now        |
+| solution               | Thông tin giải pháp                   |
+| income                 | Thông tin thu nhập                    |
+| person                 | Thông tin cá nhân                     |
 
 
 Besides knowing the table names, you need to know how each table is structured. The way this works is also dependent upon which database technology you use. Here's how you do it with SQLite.

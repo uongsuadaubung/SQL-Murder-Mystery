@@ -53,9 +53,19 @@ Result: rỗng
 
 Result: rỗng
 
-##### Tìm kiếm việc làm
+##### Tìm kiếm Lời khai
 
-Result: rỗng
+| person_id | transcript                                                                                                                                                                                                                      |
+|-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 14887     | I heard a gunshot and then saw a man run out. He had a "Get Fit Now Gym" bag. The membership number on the bag started with "48Z". Only gold members have those bags. The man got into a car with a plate that included "H42W". |
+
+| person_id | lời khai                                                                                                                                                                                                                                                                     |
+|-----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 14887     | Tôi nghe thấy tiếng súng và sau đó nhìn thấy một người đàn ông chạy ra ngoài. Anh ta có một chiếc túi "Get Fit Now Gym". Số thành viên trên túi bắt đầu bằng "48Z". Chỉ có các thành viên vàng mới có túi như vậy. Người đàn ông lên xe ô tô có biển số bắt đầu bằng "H42W". |
+
+
+
+
 
 ##### tìm kiếm thành viên getfitnow
 
