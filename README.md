@@ -47,7 +47,7 @@ result
 | interview              | Thông tin cuộc phỏng vấn lấy lời khai |
 | get_fit_now_member     | Thông tin thành viên Get Fit Now      |
 | get_fit_now_check_in   | Thông tin check-in Get Fit Now        |
-| solution               | Thông tin giải pháp                   |
+| solution               | Kiểm tra đáp án                       |
 | income                 | Thông tin thu nhập                    |
 | person                 | Thông tin cá nhân                     |
 
